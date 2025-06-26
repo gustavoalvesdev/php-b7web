@@ -1,33 +1,19 @@
 <?php 
 
-/* 
-    String; // TEXTO
-    Integer; //  NÚMEROS INTEIROS (SEM VÍRGULA)
-    Float; // NÚMEROS COM VÍRGULA 
-    Boolean; // VERDADEIRO OU FALSO / LÓGICO
-*/
+$texto = 'Pera, uva maçã e salada mista';
 
-// String
-$nome = "Pedro";
-$sobrenome = "Alves da Silva";
-$numeroCaracteres = strlen($nome);
+$posicaoPalavraUva = strpos($texto, 'uva');
+$posicaoPalavraPera = strpos($texto, 'Pera');
 
-echo 'Pedro nome é ' . $nome . ' e ele tem ' . $numeroCaracteres  .' caracteres';
+echo "A palavra uva começa na posição $posicaoPalavraUva e a palavra pera começa na poosição $posicaoPalavraPera";
 
-// // Integer
-// $quantidadeAlunos = 10;
+$parteString = substr($texto, 6, 12);
 
-// // Float
-// $precoArroz = 10.25;   
+echo '<br>';    
 
-// // Boolean
-// $choveuHoje = true;
+echo 'Parte da String: ' . $parteString;
 
-// echo "Preço do Arroz: " . $precoArroz;
-// echo "<br>";
-// echo "Nome do Aluno: " . $nome;
-// echo "<br>";
-// echo "Quantidade de Alunos: " . $quantidadeAlunos;
-// echo "<br>";
-// echo "Choveu Hoje: " . ($choveuHoje ? 'Sim' : 'Não');
- 
+echo '<br>';
+
+$pera = substr($texto, 0, 4);
+echo 'Pera: ' . $pera;
