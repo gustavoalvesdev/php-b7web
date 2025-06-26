@@ -8,22 +8,26 @@
 */
 
 // String
-$nome = "Gustavo";
+$nome = "Pedro";
+$sobrenome = "Alves da Silva";
+$numeroCaracteres = strlen($nome);
 
-// Integer
-$quantidadeAlunos = 10;
+echo 'Pedro nome é ' . $nome . ' e ele tem ' . $numeroCaracteres  .' caracteres';
 
-// Float
-$precoArroz = 10.25;   
+// // Integer
+// $quantidadeAlunos = 10;
 
-// Boolean
-$choveuHoje = true;
+// // Float
+// $precoArroz = 10.25;   
 
-echo "Preço do Arroz: " . $precoArroz;
-echo "<br>";
-echo "Nome do Aluno: " . $nome;
-echo "<br>";
-echo "Quantidade de Alunos: " . $quantidadeAlunos;
-echo "<br>";
-echo "Choveu Hoje: " . ($choveuHoje ? 'Sim' : 'Não');
+// // Boolean
+// $choveuHoje = true;
+
+// echo "Preço do Arroz: " . $precoArroz;
+// echo "<br>";
+// echo "Nome do Aluno: " . $nome;
+// echo "<br>";
+// echo "Quantidade de Alunos: " . $quantidadeAlunos;
+// echo "<br>";
+// echo "Choveu Hoje: " . ($choveuHoje ? 'Sim' : 'Não');
  
