@@ -15,5 +15,7 @@ echo 'Parte da String: ' . $parteString;
 
 echo '<br>';
 
-$pera = substr($texto, 0, 4);
+$tamanhoPalavraPera = strlen('pera');
+
+$pera = substr($texto, $posicaoPalavraPera, $tamanhoPalavraPera);
 echo 'Pera: ' . $pera;
